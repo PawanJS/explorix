@@ -178,4 +178,4 @@ Project Link: [Project](https://github.com/PawanJS/explorix)
 [issues-url]: https://github.com/PawanJS/explorix/issues
 [license-shield]: https://img.shields.io/apm/l/vim-mode?label=LICENSE&style=for-the-badge
 [license-url]: https://github.com/PawanJS/explorix/blob/master/LICENSE.txt
-[product-screenshot]: ./src/img/screenshot.jpg
+[product-screenshot]: ./src/assets/images/screenshot.jpg
