@@ -17,7 +17,7 @@
 <br />
 <p align="center">
   <a href="https://explorix-by-pawanjs.netlify.app/">
-    <img src="./src/assets/images/favicon.svg" alt="Logo" width="100%" height="100%">
+    <img src="./src/assets/images/favicon.svg" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Explorix</h3>
