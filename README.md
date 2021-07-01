@@ -1,105 +1,199 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![pull][pull-requests-shield]][pull-requests-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
+<!-- PROJECT LOGO -->
+<br />
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://forkify-by-pawanjs.netlify.app/">
+    <img src="./src/img/logo.png" alt="Logo" width="100%" height="100%">
   </a>
+
+  <h3 align="center">Forkify</h3>
+
+  <p align="center">
+    A recipe search application made with javascript.
+    <br />
+    <a href="#about-the-project"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://forkify-by-pawanjs.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/PawanJS/forkify/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/PawanJS/forkify/issues">Request Feature</a>
+  </p>
 </p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+<!-- ABOUT THE PROJECT -->
 
-## 🚀 Quick start
+## About The Project
 
-1.  **Create a Gatsby site.**
+[![Product Name Screen Shot][product-screenshot]](https://forkify-by-pawanjs.netlify.app/)
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. This app uses modern JavaScript tools, such as Webpack to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease
+servings as per his need and can view detailed directions.
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+### Built With
 
-1.  **Start developing.**
+This app is built with pure vanilla JavaScript along with HTML and SCSS. It uses webpack as module bundler and NPM as package manager.
 
-    Navigate into your new site’s directory and start it up.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [SCSS](https://sass-lang.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
+- [Webpack](https://webpack.js.org/)
+- [NPM](https://www.npmjs.com/)
 
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+<!-- GETTING STARTED -->
 
-1.  **Open the source code and start editing!**
+## Getting Started
 
-    Your site is now running at `http://localhost:8000`!
+To get started with project just simply fork this repo or download locally on your System.
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+To get a local copy up and running follow these simple example steps.
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+### Prerequisites
 
-## 🚀 Quick start (Gatsby Cloud)
+Start with the latest version of NPM to avoid any errors:
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-default)
+### Installation
 
-## 🧐 What's inside?
+1. Clone the repo
+   ```sh
+   git clone https://github.com/PawanJS_/forkify.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+<!-- USAGE EXAMPLES -->
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+## Usage
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+1. The Forkify Recipe App allows users to search for recipes.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+2. Users can view the recipe along with the cook time and also
+   increase or decrease the amount of servings they need.
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+3. Bookmarked recipes are stored in local storage so no database was
+   required for this application.
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+_For more examples, please refer to the [Documentation](https://forkify-api.herokuapp.com/v2)_
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+<!-- ROADMAP -->
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+## Roadmap
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+See the [open issues](https://github.com/PawanJS/forkify/issues) for a list of proposed features (and known issues).
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+### Proposed features
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+1. Number of pages between the pagination buttons.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+2. Ability to sort search results by duration or number of ingredients.
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+3. Ingredient validation in view, before submitting the form.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+4. Improving recipe ingredient input: separate in multiple fields and allow more
+   than 6 ingredients.
 
-## 🎓 Learning Gatsby
+5. Shopping list feature: button on recipe to add ingredients to a list.
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
+6. Weekly meal planning feature: assign recipes to the next 7 days and show
+   on a weekly calendar.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+7. Nutrition data on each ingredient from spoonacular API (https://
+   spoonacular.com/food-api) and calculate total calories of recipe.
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+<!-- CONTRIBUTING -->
 
-## 💫 Deploy
+## Contributing
 
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/cloud/)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Pawan JS - [Say Hie](https://www.pawanjs.xyz/#contact)
+
+Project Link: [Project](https://github.com/PawanJS/forkify)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [Img Shields](https://shields.io)
+- [Netlify](https://www.netlify.com/)
+- [Webpack](https://webpack.js.org/)
+- [Google Fonts](https://fonts.google.com/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/PawanJS/forkify?color=green&style=for-the-badge
+[contributors-url]: https://github.com/PawanJS/forkify/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PawanJS/forkify?style=for-the-badge
+[forks-url]: https://github.com/PawanJS/forkify/network/members
+[pull-requests-shield]: https://img.shields.io/github/issues-pr/PawanJS/forkify?style=for-the-badge
+[pull-requests-url]: https://github.com/PawanJS/forkify/pulls
+[issues-shield]: https://img.shields.io/bitbucket/issues/PawanJS/forkify?style=for-the-badge
+[issues-url]: https://github.com/PawanJS/forkify/issues
+[license-shield]: https://img.shields.io/apm/l/vim-mode?label=LICENSE&style=for-the-badge
+[license-url]: https://github.com/PawanJS/forkify/blob/master/LICENSE.txt
+[product-screenshot]: ./src/img/screenshot.jpg
