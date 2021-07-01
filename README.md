@@ -68,7 +68,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://explorix-by-pawanjs.netlify.app/)
 
-Explorix is travel website built using Gatsby and React. It is a responsive website with information about various travel packages available for consumers. This acts as a landing page gor the business.
+Explorix is travel website built using Gatsby and React. It is a responsive website with information about various travel packages available for consumers. This acts as a landing page for the business.
 
 ### Built With
 
