@@ -128,7 +128,7 @@ See the [open issues](https://github.com/PawanJS/explorix/issues) for a list of 
 
 1. Separate pages with detailed content.
 
-2. Get discount by signing up through Email.
+2. Get discount by signing up through email.
 
 <!-- CONTRIBUTING -->
 
