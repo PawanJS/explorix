@@ -1,13 +1,19 @@
 import React from "react"
 import styled from "styled-components"
 import { Button } from "../Ui/Button/Button.component"
-import Video from "../../assets/videos/travel.mp4"
+import { StaticImage } from "gatsby-plugin-image"
+// import Video from "../../assets/videos/travel.mp4"
 
 const Hero = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline />
+        {/* <VideoBg src={Video} type="video/mp4" autoPlay loop muted playsInline /> */}
+        <StaticImage
+          src="../../assets/images/hero.jpg"
+          alt="Hero background"
+          style={{ position: "initial" }}
+        />
       </HeroBg>
       <HeroContent>
         <HeroItems>
@@ -24,7 +30,7 @@ const Hero = () => {
 
 export default Hero
 
-const HeroContainer = styled.div`
+const HeroContainer = styled.header`
   background-color: #0c0c0c;
   display: flex;
   justify-content: center;
@@ -63,12 +69,12 @@ const HeroBg = styled.div`
   overflow: hidden;
 `
 
-const VideoBg = styled.video`
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-`
+// const VideoBg = styled.video`
+//   width: 100%;
+//   height: 100%;
+//   -o-object-fit: cover;
+//   object-fit: cover;
+// `
 
 const HeroContent = styled.div`
   z-index: 3;
